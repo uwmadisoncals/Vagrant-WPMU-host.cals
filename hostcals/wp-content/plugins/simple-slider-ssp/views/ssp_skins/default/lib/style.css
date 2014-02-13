@@ -1,0 +1,181 @@
+/*Twenty Twelve fixes and other theme fixes and styles :( */
+
+.flex-caption {
+  background: #000;   
+  -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000); 
+  zoom: 1;
+}
+
+.wsp_default_skin .flex-caption {
+  width: 100%;
+  position: absolute;
+  height: 35px;
+  bottom: 0px;
+  background: rgba(0,0,0,.3);
+  color: white;
+  font-size: 14px;
+  z-index: 99999;
+  margin: 0 !important;
+}
+
+.wsp_default_skin .flex-caption a {
+  color: white;
+  text-decoration: none;
+}
+
+
+
+.wsp_default_skin .flex-caption a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.wsp_default_skin .flex-caption strong {
+   padding: 5px 10px !important;
+   color: #fff;
+   display: block;
+}
+
+.ssp_slider_default > li.slide {
+  position: relative;
+}
+
+.ssp_slider_default .slide_image {
+  box-shadow: none !important;
+  border-radius: 0;
+}
+
+.wsp_default_skin .flex-caption {
+  
+  position: absolute;
+  height: 35px;
+  bottom: 0px;
+  background: none;
+  color: white;
+  font-size: 34px;
+  /*font-family: 'Merriweather', Georgia, serif;*/
+  font-family: "Merriweather";
+  -webkit-font-smoothing: antialiased;
+  font-weight: 500;
+  text-shadow: 0px 1px 14px rgba(0,0,0,0.5);
+  z-index: 99999;
+  margin: 40px;
+  padding-left: 60px;
+ padding-bottom: 60px;
+
+
+}
+
+
+.wsp_default_skin .slide:first-child .textShade {
+position: absolute;
+bottom: 0px;
+height: 55%;
+left: 0px;
+right: 0px;
+z-index: 1;
+background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.4) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.4))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.4) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.4) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.4) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.4) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#b3000000',GradientType=0 ); /* IE6-9 */
+}
+
+
+
+.wsp_default_skin p.flex-caption .subHeading {
+display: block;
+font-family: "Open Sans";
+
+font-size: 13px;
+color: #d18e19;
+margin-top: 14px;
+line-height: 16px;
+font-weight: normal;
+
+-webkit-font-smoothing: subpixel-antialiased;
+}
+
+.wsp_default_skin > li.slide, .wsp_default_skin > li.slide img {
+  margin: 0;
+  max-width: 100%;
+}
+
+.ssp_slider_default .flex-direction-nav, .flex-control-nav {
+  list-style: none !important;
+  margin: 0 !important;
+}
+
+.ssp_slider_default .flex-control-nav > li {
+  margin: 0 6px;
+}
+
+.ssp_slider_default .flex-control-thumbs li {
+  margin: 0px;
+  margin-top: 5px;
+}
+
+.ssp_slider_default .flex-control-thumbs li img {
+  margin-bottom: 0px;
+  box-shadow: none;
+  border-radius: 0px;
+}
+
+.ssp_no_chrome_slider_default {
+  background: inherit;
+  border: none;
+  position: relative;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -o-box-shadow: none;
+}
+
+/** TT fixes and styles END **/
+
+/** Slider Default HTML skin **/
+
+.ssp_slider_default_html .flex-direction-nav {
+  list-style: none !important;
+}
+
+.ssp_slider_default_html .flex-control-nav > li {
+  margin: 0 6px;
+}
+
+.ssp_slider_default_html > li.slide {
+  position: relative;
+  
+}
+
+.ssp_slider_default_html > li.slide, .wsp_default_skin > li.slide img {
+  margin: 0;
+}
+
+.ssp_slider_default_html .flex-direction-nav, .flex-control-nav {
+  list-style: none !important;
+  margin: 0 !important;
+}
+
+.ssp_slider_default_html .slides {
+  list-style: none !important;
+}
+
+/** End styling for default html skin **/
+
+/** Carousel skin **/
+.ssp_carousel_skin .slide_image{
+  margin-bottom: 0px;
+}
+.ssp_carousel_skin .c_slide {
+  margin: 0px;
+  margin-right: 5px;
+}
+/** End Styling **/

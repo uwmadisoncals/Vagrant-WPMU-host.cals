@@ -1,0 +1,228 @@
+/*
+Theme Name:     CALS - Business Services
+Theme URI:      http://cals.wisc.edu/developers
+Description:    Child theme for the CALS WP Theme
+Author:         Rich Donohue
+Author URI:     http://www.wisc.edu/directories/person.php?name=ALBERT%20M%20NEMEC
+Template:       calswptheme
+Version:        0.1.0
+*/
+
+@import url("../calswptheme/style.css");
+
+
+
+body {
+	background: url("images/CALS_bg.jpg"), url("images/ticks.png");
+	background-repeat: repeat-x, repeat;
+}
+h1 {
+margin-bottom: 0.6em;	
+display: none;
+}
+h2 {
+	font-size: 1.2em;	
+}
+strong, b {
+	font-weight: bold;
+}
+em, i {
+	font-style: italic;
+}
+
+#content {
+	min-height: 600px;
+}
+.collegeFeature {
+	display: none;
+}
+
+/* MAIN NAVIGATION */
+
+#access {
+	background: none;
+	box-shadow: none;
+	margin: 25px auto 0;	
+	background: rgba(255, 255, 255, 0.1);
+	color: white;
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	border-radius: 4px;
+}
+ul#menu-main-navigation.menu li a {
+	color: white;
+	font-weight: 400;
+}
+ul#menu-main-navigation.menu li a:hover {
+	background: rgba(210, 210, 210, .1);
+}
+ul#menu-main-navigation.menu li.current-menu-item a {
+	background: rgba(210, 210, 210, .1); 
+}
+#content nav {
+	background: none;
+}
+#nav_sidebar .children li a {
+	padding-left: 30px
+}
+#access.fixedNav  {
+	background: #323232;
+	border-radius: 0;
+	margin-top: 0;
+}
+/*
+	Page specific
+*/
+.entry-content h2#pageSub {
+	font-size: 1.3em;
+	font-style: italic;
+	font-weight: normal;
+	color: #777;
+}
+
+.widget-title {
+	line-height: 1.7em;
+}
+
+.textwidget p {
+	line-height: 1.5em;
+}
+
+.whitebox {
+	padding: 0 8px;
+	margin-bottom: 40px;
+	background: white;
+	width: 80%;
+	border: 1px solid #f1f1f1;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+
+}
+.whitebox:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+.contact-bio {
+	padding: 10px 8px 6px;
+	/*margin: 0 auto 20px;*/
+	margin: 0 8px 20px 0;
+	background: white;
+	width: 29%;
+	border: 1px solid #f1f1f1;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	float: left;
+}
+h3 em {
+	font-weight: normal;
+}
+ul.contact-info  {
+	margin: -10px 0 8px 0;
+}
+ul.contact-info li {
+	list-style-type: none;
+}
+.contact-depart li {
+	list-style-type: disc;
+}
+
+.page section {
+	display:none;
+	margin-top: 40px;
+}
+.page section > h2, .page section > h3 {
+	display: inline-block;
+}
+#sub-nav {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	
+}
+#sub-nav ul {
+	list-style: none;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background: linear-gradient(to bottom, #514d48 0%, #363636 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	height: 30px;
+}
+#sub-nav ul li {
+	line-height: 0;
+	margin: 0 0 3% 0;
+	top: 0;
+	padding: 0 3%;
+	border-right: 1px white solid;
+	display: inline;
+	vertical-align: middle;
+	position: relative;
+}
+#sub-nav ul li:last-child {
+	border-right: none;
+}
+#sub-nav ul li.page-nav-selected a {
+	/*text-decoration: underline;*/
+}
+#sub-nav ul li.page-nav-selected:before {
+    content: "";
+    border-color: transparent #CE9E56;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid #363636;
+    position: absolute;
+    height: 0;
+    width: 0;
+    left: 2em;
+    top: 2em;
+}
+#sub-nav ul li a{ 
+	color: white;
+	margin-top: 2px;
+	padding: 3px 4px 3px;
+	width: 100%;
+	/*text-transform: lowercase;*/
+}
+#sub-nav ul li a:hover {
+	border-bottom: none;
+	color: #44BBFF;
+}
+#page-intro {
+	padding: 10px 8px;
+	margin: 20px 0;
+	background: white;
+	width: 90%;
+/*	border: 1px solid #f1f1f1;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;*/
+}
+.page-info {
+	float: left;
+	width: 40%;
+	clear: right;
+}
+
+.page-explanation {
+	float: right;
+	padding: 0 8px;	
+	margin-bottom: 40px;
+	background: white;
+	width: 56%;
+	border: 1px solid #f1f1f1;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+.page-explanation:after { 
+   content: '.'; 
+   visibility: hidden; 
+   display: block;
+   width: 100%; 
+   height: 0; 
+   clear: both;
+}

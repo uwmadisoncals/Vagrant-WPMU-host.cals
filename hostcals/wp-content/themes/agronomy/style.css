@@ -1,0 +1,49 @@
+/*
+Theme Name:     Agronomy
+Theme URI:      http://cals.wisc.edu/developers
+Description:    Agronomy child theme for the CALS WP Theme
+Author:         Al Nemec
+Author URI:     http://www.wisc.edu/directories/person.php?name=ALBERT%20M%20NEMEC
+Template:       calswptheme
+Version:        0.1.0
+*/
+
+@import url("../calswptheme/style.css");
+@import url("../calswptheme/mobile.css");
+
+.collegeFeature2.marginbottom {
+	margin-bottom: 20px;
+}
+
+.home #container {
+	width: 632px;
+	float: right;
+	margin-right: -10px;
+}
+
+.homeLeftStatic {
+	margin-left: -4px;
+	margin-top: 4px;
+	float: left;
+	width: 300px;
+	
+	
+}
+
+.homeLeftStatic .newsItem, .homeLeftStatic .newsItemNonPreload {
+	background: #fff;
+
+}
+
+.newsItemNonPreload.padding {
+	padding: 20px;
+
+}
+
+@-moz-document url-prefix() {
+	.newsItemNonPreload.padding {
+		padding: 20px;
+		width: 264px;
+	
+	}
+}
